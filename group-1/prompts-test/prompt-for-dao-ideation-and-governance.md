@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Prompt for DAO Ideation and Governance
 
 ## Submission or reach out here
