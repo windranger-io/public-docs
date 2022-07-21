@@ -16,8 +16,8 @@ Open to new development, or adopting existing solutions.
 ### Out of scope
 DAO treasury management, DAO automated operations
 
-# Submission or reachout here
-Webform: https://airtable.com/shrxT4MCCYBGVrHYl
+# Submission
+Please fill out this webform for submissions: https://airtable.com/shrxT4MCCYBGVrHYl
 
 # Issues and Perspectives
 Note: The items below are not exclusive lists or the defined frameworks for the solution, however should be referenced as part of the overall research and solution design exercise prior to submission.
