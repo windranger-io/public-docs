@@ -8,7 +8,7 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 ### Prompts for DAO Tools
 
-[Prompt-for-dao-ideation-and-governance](prompts/prompts-test/prompt-for-dao-ideation-and-governance-v2.md)
+[Prompt for dao ideation and governance](prompts/prompts-test/prompt-for-dao-ideation-and-governance-v2.md)
 
 [Prompt for Mass Delegation (Tool)](https://docs.google.com/document/d/1jrNDemBZDwxZGBxIgvr31My\_sj4ZJunGQEDEoX6vEoI/)
 
