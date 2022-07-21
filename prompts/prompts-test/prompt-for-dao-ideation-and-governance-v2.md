@@ -1,7 +1,5 @@
 # Prompt for DAO Ideation and Governance
 
-## Prompt for DAO Ideation and Governance
-
 #### Scope
 
 We are looking for a product that results in step change improvements in ideation, and decision making (governance).
