@@ -12,7 +12,11 @@ Productivity (forum style, github style, notion style, chat); incentives; modera
 
 #### Criteria
 
-A multi feature, integrated product (maybe plugins) that covers multiple issues in the document below. Features between multiple products that users have to toggle between, is a big hurdle to adoption. Primary customer is BitDAO. Easily adopted by AEs and other DAOs. “Step change” improvements to ideation and governance - i.e. not “nice to have” or “small upgrades” that won’t result in better ideas being proposed or differences in governance outcomes. Open to new development, or adopting existing solutions.
+1. A multi feature, integrated product (maybe plugins) that covers multiple issues in the document below. Features between multiple products that users have to toggle between, is a big hurdle to adoption.
+2. Primary customer is BitDAO.
+3. Easily adopted by AEs and other DAOs.
+4. “Step change” improvements to ideation and governance - i.e. not “nice to have” or “small upgrades” that won’t result in better ideas being proposed or differences in governance outcomes.
+5. Open to new development, or adopting existing solutions.
 
 #### Out of scope
 
