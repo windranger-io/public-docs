@@ -17,7 +17,6 @@ Open to new development, or adopting existing solutions.
 DAO treasury management, DAO automated operations
 
 # Submission or reachout here
-Email: daotools@windranger.io
 Webform: https://airtable.com/shrxT4MCCYBGVrHYl
 
 # Issues and Perspectives
