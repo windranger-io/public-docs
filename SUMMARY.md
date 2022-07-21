@@ -4,5 +4,5 @@
 
 ## Prompts
 
-* [List of prompts](prompts/prompts-test/README.md)
-  * [Prompt for DAO Ideation and Governance](prompts/prompts-test/prompt-for-dao-ideation-and-governance-v2.md)
+* [List of prompts](prompts/list-of-prompts/README.md)
+  * [Prompt for DAO Ideation and Governance](prompts/list-of-prompts/prompt-for-dao-ideation-and-governance.md)
