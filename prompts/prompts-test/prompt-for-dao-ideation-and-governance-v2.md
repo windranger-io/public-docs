@@ -1,4 +1,4 @@
-# Prompt for DAO Ideation and Governance v2
+# Prompt for DAO Ideation and Governance
 
 ## Prompt for DAO Ideation and Governance
 
@@ -20,7 +20,7 @@ DAO treasury management, DAO automated operations
 
 ## Submission or reach out here
 
-Email: [daotools@windranger.io](mailto:daotools@windranger.io) Webform: [https://airtable.com/shrxT4MCCYBGVrHYl](https://airtable.com/shrxT4MCCYBGVrHYl)
+Please fill out this webform for submissions: [https://airtable.com/shrxT4MCCYBGVrHYl](https://airtable.com/shrxT4MCCYBGVrHYl)
 
 ## Issues and Perspectives
 
