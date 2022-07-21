@@ -16,9 +16,9 @@ A multi feature, integrated product (maybe plugins) that covers multiple issues 
 
 #### Out of scope
 
-DAO treasury management, DAO automated operations
+DAO treasury management, DAO automated operations.
 
-## Submission or reach out here
+## Submission
 
 Please fill out this webform for submissions: [https://airtable.com/shrxT4MCCYBGVrHYl](https://airtable.com/shrxT4MCCYBGVrHYl)
 
