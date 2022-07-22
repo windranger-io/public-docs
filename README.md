@@ -6,7 +6,7 @@
 
 We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO](https://zkdao.io/), [EduDAO](https://edudao.io/), and several more DAOs under development.
 
-## Live prompts
+## Open prompts
 
 ### Prompts for DAO Tools
 
