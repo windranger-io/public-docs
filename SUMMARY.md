@@ -7,4 +7,3 @@
 * [Open prompts](prompts/list-of-prompts/README.md)
   * [Prompt for DAO Ideation and Governance](prompts/list-of-prompts/prompt-for-dao-ideation-and-governance.md)
   * [Improving Wallet Interactions with Native Games](prompts/list-of-prompts/improving-wallet-interactions-with-native-games.md)
-* [Under development](prompts/under-development.md)
