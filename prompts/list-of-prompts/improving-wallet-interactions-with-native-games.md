@@ -2,7 +2,7 @@
 
 _from jacobc.eth of_ [_`Game7`_](https://game7.io/)
 
-### Prompt
+## Prompt
 
 #### Background&#x20;
 
@@ -22,6 +22,6 @@ A number of existing native applications engage in the sort of overlay heavior, 
 * BONUS: Allow the player to hide and unhide the wallet UI layer through a hotkey interaction similar to Steam&#x20;
 * BONUS: Enable the game to initiate a transaction request, similar to a web3 site requesting a transaction approval from MetaMask&#x20;
 
-### Submission or feedback&#x20;
+## Submission or feedback&#x20;
 
 Please email: [jacob@game7.io](mailto:jacob@game7.io)
