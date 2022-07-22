@@ -1,8 +1,6 @@
----
-description: Updated 220610
----
-
 # DAO x Legal Structuring
+
+_Updated 220610_
 
 _This document is intended for general information and discussion only. It is not a full analysis of the matters discussed and may not be relied upon as legal or other professional advice. The information contained herein may be subject to future change due to the evolving nature of the laws and regulations relating to DAOs and crypto assets generally and we do not intend to update this document to reflect such changes. Each project’s legal structuring should be customized to the specific activities of the organization. This document may not be suitable for each project's specific circumstances. The legal recognition of DAOs differs between jurisdictions and you should always seek advice from licensed attorneys in the relevant jurisdiction. There is no “one size fits all”, and likely there are no “right answers” as this is a new industry with limited statutory or case law._
 
