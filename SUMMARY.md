@@ -2,12 +2,12 @@
 
 * [Introduction](README.md)
 
-## Prompts
+## prompts
 
 * [Open prompts](prompts/list-of-prompts/README.md)
   * [DAO Ideation and Governance](prompts/list-of-prompts/dao-ideation-and-governance.md)
   * [Improving Wallet Interactions with Native Games](prompts/list-of-prompts/improving-wallet-interactions-with-native-games.md)
 
-## Guidance documents
+## guides
 
-* [DAO Legal Structuring](guidance-documents/dao-legal-structuring.md)
+* [DAO Legal Structuring](guides/dao-legal-structuring.md)

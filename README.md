@@ -16,7 +16,7 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 ## Guidance documents
 
-[Guidance: DAO Legal Structuring](guidance-documents/dao-legal-structuring.md)
+[Guidance: DAO Legal Structuring](guides/dao-legal-structuring.md)
 
 ## Commentary Docs
 
