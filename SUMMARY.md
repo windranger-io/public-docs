@@ -10,4 +10,4 @@
 
 ## Guidance documents
 
-* [DAO x Legal Structuring](guidance-documents/dao-x-legal-structuring.md)
+* [DAO Legal Structuring](guidance-documents/dao-x-legal-structuring.md)

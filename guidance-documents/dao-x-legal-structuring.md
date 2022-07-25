@@ -1,4 +1,4 @@
-# DAO x Legal Structuring
+# DAO Legal Structuring
 
 _Updated 220610_
 
@@ -11,7 +11,7 @@ A DAO, although a decentralized community, from time to time needs to deal with 
 | Activity                      | Why Legal Structure                                        | Trad Incentives            |
 | ----------------------------- | ---------------------------------------------------------- | -------------------------- |
 | Venture and other Investments | Sign SAFTs, SAFEs and other legal documents; Bank accounts | Fund incentive: 2/20 carry |
-| Labs, Operations              | Talent recruitment; Bank account; Hold IP interests        | Equity Token earnouts      |
+| Labs, Operations              | Talent recruitment; Bank account; Hold IP interests        | Equity; Token earnouts     |
 | Token Sales                   | Sign sale docs; KYC/AML procedures                         |                            |
 
 ## Typical Legal Structure
@@ -64,10 +64,10 @@ In order to connect the DAO to the Foundation, the governing documents of the Fo
 
 Sometimes it is time consuming and inconvenient to ask the director to follow the “recommendations” passed by the whole community voting process. There can be a concept of an advisory committee to be built in to make the daily operation more efficient.
 
-- The committee is entitled to provide “committee recommendations” to the Foundation.
-- The memorandum and articles of association of the Foundation may require that the directors and the supervisor consider and, if possible and appropriate having due consideration to the objects of the Foundation, implement the “recommendations” made by the committee or DAO resolutions (which can attach the Snapshot link) subject to all applicable law and fiduciary duties.
-- The selection and governance of the committee still remain as a matter for the DAO itself.
-- The directors of the Foundation should retain power and discretion as to how the assets of the Foundation are used.
+* The committee is entitled to provide “committee recommendations” to the Foundation.
+* The memorandum and articles of association of the Foundation may require that the directors and the supervisor consider and, if possible and appropriate having due consideration to the objects of the Foundation, implement the “recommendations” made by the committee or DAO resolutions (which can attach the Snapshot link) subject to all applicable law and fiduciary duties.
+* The selection and governance of the committee still remain as a matter for the DAO itself.
+* The directors of the Foundation should retain power and discretion as to how the assets of the Foundation are used.
 
 The members of the committee can also act as directors, officers or authorized signatories of the BVI subsidiary and can also be the holders of the Multisig wallet of the DAO. The committee members and the wallet address held by them can be identified in the launch resolution of the Foundation.
 
@@ -75,8 +75,8 @@ The resolutions of the directors or the committee may be passed by a simple majo
 
 #### Fund Flow
 
-- The recommended order of operations is that the DAO will make a gratuitous grant of crypto assets to the Foundation, which then passes them down to its BVI subsidiary (whether as further gratuitous grant, or a capital injection, or some other arrangement). This transaction should be appropriately recorded and documented from a legal and accounting perspective.
-- If the Foundation does not have its own wallet, the Foundation may direct the DAO (or the relevant committee) to make the transfer of the cryptoassets directly to the BVI subsidiary, on behalf of the Foundation.
+* The recommended order of operations is that the DAO will make a gratuitous grant of crypto assets to the Foundation, which then passes them down to its BVI subsidiary (whether as further gratuitous grant, or a capital injection, or some other arrangement). This transaction should be appropriately recorded and documented from a legal and accounting perspective.
+* If the Foundation does not have its own wallet, the Foundation may direct the DAO (or the relevant committee) to make the transfer of the cryptoassets directly to the BVI subsidiary, on behalf of the Foundation.
 
 ## Notes Regarding Token Offering
 
@@ -84,11 +84,11 @@ Regardless if you have a legal opinion regarding the status of the tokens, the r
 
 Take the US securities law as an example, the key considerations include:
 
-- Avoid public solicitation (or no direct selling efforts) in the US.
-- Limited to institutional investors or non-US persons in an offshore transaction.
-- Beware of publicity restrictions and rules regarding press release, conference or other social media guidelines.
-- Check transaction documents by outside US counsel.
-- Consider whether the DAO could be an unregistered investment company if the tokens are offered to US investors.
+* Avoid public solicitation (or no direct selling efforts) in the US.
+* Limited to institutional investors or non-US persons in an offshore transaction.
+* Beware of publicity restrictions and rules regarding press release, conference or other social media guidelines.
+* Check transaction documents by outside US counsel.
+* Consider whether the DAO could be an unregistered investment company if the tokens are offered to US investors.
 
 ## DAOs With Operations in the US
 
@@ -110,7 +110,7 @@ Li Han and Rachel Wang from Mirana Ventures;
 
 [Brad Kruger](https://www.ogier.com/people/bradley-kruger), [Chris Wall](https://www.ogier.com/people/chris-wall) and [Michael Robinson](https://www.ogier.com/people/michael-robinson) from Ogier (Cayman Islands);
 
-[Michael Killourhy](https://www.ogier.com/people/michael-killourhy) and [David Mathews](https://www.ogier.com/people/david-mathews) from Ogier (British Virgin Islands).
+[Michael Killourhy](https://www.ogier.com/people/michael-killourhy) and [David Mathews](https://www.ogier.com/people/david-mathews) from Ogier (British Virgin Islands);
 
 [Timmoney Ng](https://www.linkedin.com/in/timmoney-ng-b25b0163/) from Butler Snow (Singapore);
 
