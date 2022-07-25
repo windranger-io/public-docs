@@ -1,4 +1,4 @@
-# DAO x Legal Structuring
+# DAO Legal Structuring
 
 _Updated 220610_
 
