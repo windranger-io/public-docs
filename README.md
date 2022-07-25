@@ -10,9 +10,9 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 ### Prompts for DAO Tools
 
-[DAO Ideation and Governance](prompts/dao-ideation-and-governance.md)
+[DAO Ideation and Governance](prompts/P001%3A%20Improving%20DAO%20ideation%20and%20Governance.md)
 
-[Improving Wallet Interactions with Native Games](prompts/improving-wallet-interactions-with-native-games.md)
+[Improving Wallet Interactions with Native Games](prompts/P002%3A%20Improving-wallet-interactions-with-native-games.md)
 
 ## Guides
 
