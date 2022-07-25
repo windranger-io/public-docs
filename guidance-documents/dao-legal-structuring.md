@@ -11,7 +11,7 @@ A DAO, although a decentralized community, from time to time needs to deal with 
 | Activity                      | Why Legal Structure                                        | Trad Incentives            |
 | ----------------------------- | ---------------------------------------------------------- | -------------------------- |
 | Venture and other Investments | Sign SAFTs, SAFEs and other legal documents; Bank accounts | Fund incentive: 2/20 carry |
-| Labs, Operations              | Talent recruitment; Bank account; Hold IP interests        | Equity Token earnouts      |
+| Labs, Operations              | Talent recruitment; Bank account; Hold IP interests        | Equity; Token earnouts      |
 | Token Sales                   | Sign sale docs; KYC/AML procedures                         |                            |
 
 ## Typical Legal Structure
