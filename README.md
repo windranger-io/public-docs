@@ -10,13 +10,13 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 ### Prompts for DAO Tools
 
-[DAO Ideation and Governance](prompts/list-of-prompts/prompt-for-dao-ideation-and-governance.md#prompt)
+[DAO Ideation and Governance](broken-reference)
 
 [Improving Wallet Interactions with Native Games](prompts/list-of-prompts/improving-wallet-interactions-with-native-games.md#prompt)
 
 ## Guidance documents
 
-[Guidance: DAO Legal Structuring](guidance-documents/dao-x-legal-structuring.md)
+[Guidance: DAO Legal Structuring](broken-reference)
 
 ## Commentary Docs
 
