@@ -66,7 +66,7 @@ Merely making the vote more democratic does not necessarily mean better decision
 
 #### Committees
 
-The success of certain DAO actions, venture investments and treasury management for example, are extremely sensitive to the quality and timeliness of decision making. For the instance of venture, there are issues with: information confidentiality, counterparty negotiations, as described here. A one-token-one-vote governance structure makes these critical tasks impossible. In traditional organizations and political systems, governing bodies elect qualified decision making bodies rather than voting on all topics.
+The success of certain DAO actions, venture investments and treasury management for example, are extremely sensitive to the quality and timeliness of decision making. For the instance of venture, there are issues with: information confidentiality, counterparty negotiations, as described [here](https://medium.com/mirana-ventures/what-cant-daos-do-b1fbe78726ab). A one-token-one-vote governance structure makes these critical tasks impossible. In traditional organizations and political systems, governing bodies elect qualified decision making bodies rather than voting on all topics.
 For DAOs, committees can also be elected to make time-sensitive, qualified decisions. In this model, the DAO retains top level control as it can: adjust mandates, define limits, define governance rules, modify members, or even entirely dissolve the committee. DAO tooling can be adopted to enable this process and increase transparency of even committee-based governance.
 
 #### Polling
