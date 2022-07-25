@@ -1,5 +1,7 @@
 # DAO x Legal Structuring
 
+__
+
 _Updated 220610_
 
 _This document is intended for general information and discussion only. It is not a full analysis of the matters discussed and may not be relied upon as legal or other professional advice. The information contained herein may be subject to future change due to the evolving nature of the laws and regulations relating to DAOs and crypto assets generally and we do not intend to update this document to reflect such changes. Each project’s legal structuring should be customized to the specific activities of the organization. This document may not be suitable for each project's specific circumstances. The legal recognition of DAOs differs between jurisdictions and you should always seek advice from licensed attorneys in the relevant jurisdiction. There is no “one size fits all”, and likely there are no “right answers” as this is a new industry with limited statutory or case law._
@@ -120,6 +122,7 @@ Li Han and Rachel Wang from Mirana Ventures;
 
 
 
-| OrangeDAO (Charter) https://www.orangedao.xyz/ | <p>Permissioned DAO members (institutional investors), legal fund entity, legal operating entity, 2/20 carry for GPs, future direction to tokenize GP shares. Drawio of OrangeDAO<br><br>Structure: https://drive.google.com/file/d/1rNUvoMw3bN-NhZrt6VN-HQcFSKfyZtQr/view?usp=sharing</p>                                                                                                                       |
-| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| References from local legal fir                | <p>Ogier https://www.ogier.com/publications/defi-daos-and-vasps-in-the-cayman-islands</p><p>https://www.ogier.com/publications/the-foundation-company-as-a-decentralised-autonomous-organisation-dao-in-the-cayman-islands</p><p>https://www.ogier.com/publications/crypto-currency-and-icos-in-the-british-virgin-islands</p><p>Conyers https://www.conyers.com/publications/view/a-foundation-for-fintech/</p> |
+| Type of reference                              | Links                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| OrangeDAO (Charter) https://www.orangedao.xyz/ | <p>Permissioned DAO members (institutional investors), legal fund entity, legal operating entity, 2/20 carry for GPs, future direction to tokenize GP shares. Drawio of OrangeDAO<br><br>Structure: https://drive.google.com/file/d/1rNUvoMw3bN-NhZrt6VN-HQcFSKfyZtQr/view?usp=sharing</p> |
+| References from local legal firms              | <p>Ogier https://www.ogier.com/publications/defi-daos-and-vasps-in-the-cayman-islands</p><p>https://www.ogier.com/publications/crypto-currency-and-icos-in-the-british-virgin-islands</p><p>Conyers https://www.conyers.com/publications/view/a-foundation-for-fintech/</p>                |
