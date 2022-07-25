@@ -1,7 +1,5 @@
 # DAO x Legal Structuring
 
-__
-
 _Updated 220610_
 
 _This document is intended for general information and discussion only. It is not a full analysis of the matters discussed and may not be relied upon as legal or other professional advice. The information contained herein may be subject to future change due to the evolving nature of the laws and regulations relating to DAOs and crypto assets generally and we do not intend to update this document to reflect such changes. Each project’s legal structuring should be customized to the specific activities of the organization. This document may not be suitable for each project's specific circumstances. The legal recognition of DAOs differs between jurisdictions and you should always seek advice from licensed attorneys in the relevant jurisdiction. There is no “one size fits all”, and likely there are no “right answers” as this is a new industry with limited statutory or case law._
@@ -66,10 +64,10 @@ In order to connect the DAO to the Foundation, the governing documents of the Fo
 
 Sometimes it is time consuming and inconvenient to ask the director to follow the “recommendations” passed by the whole community voting process. There can be a concept of an advisory committee to be built in to make the daily operation more efficient.
 
-* The committee is entitled to provide “committee recommendations” to the Foundation.
-* The memorandum and articles of association of the Foundation may require that the directors and the supervisor consider and, if possible and appropriate having due consideration to the objects of the Foundation, implement the “recommendations” made by the committee or DAO resolutions (which can attach the Snapshot link) subject to all applicable law and fiduciary duties.
-* The selection and governance of the committee still remain as a matter for the DAO itself.
-* The directors of the Foundation should retain power and discretion as to how the assets of the Foundation are used.
+- The committee is entitled to provide “committee recommendations” to the Foundation.
+- The memorandum and articles of association of the Foundation may require that the directors and the supervisor consider and, if possible and appropriate having due consideration to the objects of the Foundation, implement the “recommendations” made by the committee or DAO resolutions (which can attach the Snapshot link) subject to all applicable law and fiduciary duties.
+- The selection and governance of the committee still remain as a matter for the DAO itself.
+- The directors of the Foundation should retain power and discretion as to how the assets of the Foundation are used.
 
 The members of the committee can also act as directors, officers or authorized signatories of the BVI subsidiary and can also be the holders of the Multisig wallet of the DAO. The committee members and the wallet address held by them can be identified in the launch resolution of the Foundation.
 
@@ -77,8 +75,8 @@ The resolutions of the directors or the committee may be passed by a simple majo
 
 #### Fund Flow
 
-* The recommended order of operations is that the DAO will make a gratuitous grant of crypto assets to the Foundation, which then passes them down to its BVI subsidiary (whether as further gratuitous grant, or a capital injection, or some other arrangement). This transaction should be appropriately recorded and documented from a legal and accounting perspective.
-* If the Foundation does not have its own wallet, the Foundation may direct the DAO (or the relevant committee) to make the transfer of the cryptoassets directly to the BVI subsidiary, on behalf of the Foundation.
+- The recommended order of operations is that the DAO will make a gratuitous grant of crypto assets to the Foundation, which then passes them down to its BVI subsidiary (whether as further gratuitous grant, or a capital injection, or some other arrangement). This transaction should be appropriately recorded and documented from a legal and accounting perspective.
+- If the Foundation does not have its own wallet, the Foundation may direct the DAO (or the relevant committee) to make the transfer of the cryptoassets directly to the BVI subsidiary, on behalf of the Foundation.
 
 ## Notes Regarding Token Offering
 
@@ -86,11 +84,11 @@ Regardless if you have a legal opinion regarding the status of the tokens, the r
 
 Take the US securities law as an example, the key considerations include:
 
-* Avoid public solicitation (or no direct selling efforts) in the US.
-* Limited to institutional investors or non-US persons in an offshore transaction.
-* Beware of publicity restrictions and rules regarding press release, conference or other social media guidelines.
-* Check transaction documents by outside US counsel.
-* Consider whether the DAO could be an unregistered investment company if the tokens are offered to US investors.
+- Avoid public solicitation (or no direct selling efforts) in the US.
+- Limited to institutional investors or non-US persons in an offshore transaction.
+- Beware of publicity restrictions and rules regarding press release, conference or other social media guidelines.
+- Check transaction documents by outside US counsel.
+- Consider whether the DAO could be an unregistered investment company if the tokens are offered to US investors.
 
 ## DAOs With Operations in the US
 
@@ -119,8 +117,6 @@ Li Han and Rachel Wang from Mirana Ventures;
 [Chris Page](https://www.conyers.com/people/view/christopher-j-r-page/) from Conyers (Hong Kong).
 
 ## References
-
-
 
 | Type of reference                              | Links                                                                                                                                                                                                                                                                                      |
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
