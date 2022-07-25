@@ -14,7 +14,7 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 [Improving Wallet Interactions with Native Games](prompts/list-of-prompts/improving-wallet-interactions-with-native-games.md#prompt)
 
-## Guidance documents
+## Guides
 
 [Guidance: DAO Legal Structuring](guides/dao-legal-structuring.md)
 
