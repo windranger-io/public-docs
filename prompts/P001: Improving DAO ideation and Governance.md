@@ -1,4 +1,4 @@
-# Prompt for DAO Ideation and Governance
+# DAO Ideation and Governance
 
 ## Prompt
 
