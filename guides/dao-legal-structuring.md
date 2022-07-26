@@ -122,3 +122,7 @@ Li Han and Rachel Wang from Mirana Ventures;
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | OrangeDAO (Charter) https://www.orangedao.xyz/ | <p>Permissioned DAO members (institutional investors), legal fund entity, legal operating entity, 2/20 carry for GPs, future direction to tokenize GP shares. Drawio of OrangeDAO<br><br>Structure: https://drive.google.com/file/d/1rNUvoMw3bN-NhZrt6VN-HQcFSKfyZtQr/view?usp=sharing</p> |
 | References from local legal firms              | <p>Ogier https://www.ogier.com/publications/defi-daos-and-vasps-in-the-cayman-islands</p><p>https://www.ogier.com/publications/crypto-currency-and-icos-in-the-british-virgin-islands</p><p>Conyers https://www.conyers.com/publications/view/a-foundation-for-fintech/</p>                |
+
+## Feedback
+
+Please email: legalfeedback@mirana.tech
