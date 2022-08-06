@@ -123,10 +123,8 @@ Considerations include: slightly higher gas costs for delegates if used for onch
 
 # References
 
-| Content                        | Link                                                                            |
-| ------------------------------ | ------------------------------------------------------------------------------- |
-| COMP token delegation function | - https://compound.finance/docs/governance#delegate                             |
-| Delegating from a Gnosis Safe  | - https://docs.bitdao.io/litepaper-1/how-to-delegate/multisig-using-gnosis-safe |
-
-- https://www.notion.so/Gnosis-Delegation-ce07dc49eecc4bfb9d044820bf26624f
-  |
+| Content                         | Link                                                                            |
+| ------------------------------- | ------------------------------------------------------------------------------- |
+| COMP token delegation function  | - https://compound.finance/docs/governance#delegate                             |
+| Delegating from a Gnosis Safe   | - https://docs.bitdao.io/litepaper-1/how-to-delegate/multisig-using-gnosis-safe |
+| Delegating from a Gnosis Safe 2 | - https://www.notion.so/Gnosis-Delegation-ce07dc49eecc4bfb9d044820bf26624f      |
