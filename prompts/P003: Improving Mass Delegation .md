@@ -30,21 +30,21 @@ The items below are not exclusive lists or the defined frameworks for the soluti
 
 **Delegation Utility**
 
-BitDAO voting is via delegated voting power (see more). This approach has certain benefits including: security as a result of distinct wallets for voting and holding assets and distribution of voting power without risk of delegates selling tokens. This also creates certain limitations. If a user has not delegated to themselves prior to the proposal on snapshot, they are not able to vote if the snapshot has already been initiated. Users with BIT in wallet balance, cannot vote without first delegating.
+BitDAO voting is via delegated voting power ([see more](https://docs.bitdao.io/litepaper-1/delegated-votes)). This approach has certain benefits including: security as a result of distinct wallets for voting and holding assets and distribution of voting power without risk of delegates selling tokens. This also creates certain limitations. If a user has not delegated to themselves prior to the proposal on snapshot, they are not able to vote if the snapshot has already been initiated. Users with BIT in wallet balance, cannot vote without first delegating.
 
 The following notable protocols also utilize delegated voting:
 
 Onchain:
 
-- Compound
+- [Compound](https://compound.finance/docs/governance#delegate)
 
-- Uniswap
+- [Uniswap](https://compound.finance/docs/governance#delegate)
 
-- Optimism
+- [Optimism](https://docs.uniswap.org/protocol/concepts/governance/guide-to-voting#delegation)
 
 Offchain:
 
-- Compound (with delegate by signature, though not very flexible)
+- [Compound](https://medium.com/compound-finance/delegation-and-voting-with-eip-712-signatures-a636c9dfec5e) (with delegate by signature, though not very flexible)
 
 #### Delegation Limitations
 
@@ -123,11 +123,10 @@ Considerations include: slightly higher gas costs for delegates if used for onch
 
 # References
 
-COMP token delegation function
+| Content                        | Link                                                                            |
+| ------------------------------ | ------------------------------------------------------------------------------- |
+| COMP token delegation function | - https://compound.finance/docs/governance#delegate                             |
+| Delegating from a Gnosis Safe  | - https://docs.bitdao.io/litepaper-1/how-to-delegate/multisig-using-gnosis-safe |
 
-- [https://compound.finance/docs/governance#delegate](https://compound.finance/docs/governance#delegate)
-
-Delegating from a Gnosis Safe
-
-- [https://docs.bitdao.io/litepaper-1/how-to-delegate/multisig-using-gnosis-safe](https://docs.bitdao.io/litepaper-1/how-to-delegate/multisig-using-gnosis-safe)
-- [https://www.notion.so/Gnosis-Delegation-ce07dc49eecc4bfb9d044820bf26624f](https://www.notion.so/Gnosis-Delegation-ce07dc49eecc4bfb9d044820bf26624f)
+- https://www.notion.so/Gnosis-Delegation-ce07dc49eecc4bfb9d044820bf26624f
+  |
