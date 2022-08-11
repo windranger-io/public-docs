@@ -16,6 +16,6 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 [P003: Improving Mass Delegation](prompts/P003:%20Improving%20Mass%20Delegation%20.md)
 
-## Guides
+## Research
 
-[G001: DAO Legal Structuring](guides/G001%3A%20Dao%20Legal%20Structuring.md)
+[G001: DAO Legal Structuring](/research/G001:%20Dao%20Legal%20Structuring.md)
