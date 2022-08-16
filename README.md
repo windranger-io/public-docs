@@ -18,4 +18,4 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 ## Research
 
-[G001: DAO Legal Structuring](/research/R001.md)
+[R001: DAO Legal Structuring](/research/R001.md)
