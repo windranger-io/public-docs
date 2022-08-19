@@ -1,0 +1,78 @@
+# BIT network proposal: iterative modular chain approach
+
+_Proposal by jacobc.eth, afkbyte.eth, Sreeram Kannan, Soubik Deb, Dow Jones, and Cooper Midroni_
+
+
+## Background
+
+In this proposal for a BIT network, we want to address the requirements laid out by BIT token holders while also acknowledging the wide range of challenges that arise in current L1/L2 implementations. As such, we’d like to begin by outlining known problems and requirements from the BIT community that our proposed approach attempts to mediate between:
+
+**Known Problems:**
+
+
+
+* Existing L2 solutions have failed to get sufficient traction
+    * They lack sufficient onramps
+    * Their usage of ETH as the gas token prevents them from using grants of their own native gas token to attract liquidity and dapp developers to their L2 chains, placing them in a disadvantaged position when competing against side chains like Polygon or BSC
+* Existing sidechain solutions are highly centralized and trade security for transaction speeds, resulting in massive catastrophic hacks (ie. Axie Infinity, various bridge hacks, etc).
+* The theories of building a monolithic L1 that is sufficiently scalable have been deeply disproven by the economics around demand for blockspace. No singular chain can infinitely scale to support the needs of developers, and the needs for interoperability and liquidity greatly weaken the value of new L1s. 
+* Game and dapp developers (including many involved in the Game7 DAO ecosystem) want tooling and infrastructure to deploy game or individual dapp chains that use custom assets for gas. Developers don’t want to compete for blockspace when other projects launch on the same chain, but developers simultaneously need chains that are sufficiently secure for future growth/adoption.
+
+**BIT Community Goals:**
+
+
+
+* BitDAO is increasingly becoming a funding center for an ever expanding fractal of autonomous entities. A BIT network could serve as core infrastructure in incubating this ecosystem of innovation.
+* BIT token holders want to see greater utility added to the BIT token, and in particular would like to see this token used for gas in addition to DAO governance
+* BitDAO members want to build a more vibrant and participatory DAO ecosystem with smaller and more frequent proposals that currently don’t make sense with high transaction fees (ETH mainnet) or low security (side-chains that aren’t secure enough to host a multi-billion dollar DAO treasury) 
+
+
+## BIT Execution Layer + EigenDA (Eigen Data Availability) as the Superior Option to a Sidechain/L1
+
+We propose launching a modular chain-based solution powered by EigenDA. EigenDA provisions hyperscaled data availability to any execution layer, whether it is optimistic rollup (ORU) or zk rollup (ZKRU), while deriving security from the Ethereum Mainnet. In order to leverage security from the Ethereum Mainnet, our approach uses EigenLayer which is a staking solution on Ethereum. The benefits of using EigenDA for provisioning data availability to the BIT execution layer are:
+
+
+
+1. **Leverage Ethereum’s massive trust network:** Ethereum has the largest trust network out of all blockchains with its widespread ETH distribution and network of validators that are participating in making the consensus secure. A combination of BIT execution layer and EigenDA enables using this immense trust substrate via staking in EigenLayer for ensuring that state is updated correctly by the BIT execution layer, no censorship is being done by the BIT execution layer and data is available at EigenDA with high cryptoeconomic cost. _On the other hand, if we were to run our own L1 chain we will only have as much security as BIT’s total token value, which is significantly smaller than ETH _and could be vulnerable during times of market volatility (see TERRA/LUNA).
+2. **Boost the BIT token’s utility:** The dual-quorum model of EigenDA means that anyone can stake BIT to register as an EigenDA node, thus becoming part of the BIT quorum. With this feature, the BIT token will have the utility of provisioning security to data availability for the BIT execution layer. Now, the BIT execution layer will pay fees to the EigenDA nodes in BIT. This accrues further utility to the BIT token in addition to the existing use case for DAO governance. 
+3. **Hyperscaled throughput:**   EigenDA has been designed with the goal of achieving a throughput of 1 TB/s or more, thus nullifying any blockspace congestion. Such a high throughput is a prerequisite for having heavy applications like gaming, social networks, etc. These will be executed by the BIT execution layer. Only a modular architecture (ie.BIT execution layer + EigenDA) can provide for such hyperscaling whereas running our own L1 would bring numerous bottlenecks that would only throttle down the throughput  immensely. _Developing hyperscale of this type will greatly help the projects being incubated in the BitDAO ecosystem._
+
+
+### Roadmap
+
+At the beginning of this roadmap of a modular world for BIT network, we propose to power the BIT execution layer via optimistic rollup (ORU) that features on-chain fraud proofs for dispute resolution. Using ORUs at the BIT execution layer in conjunction with EigenDA requires almost negligible gas costs on Ethereum in optimistic cases, that is, when there is no malicious execution by the sequencer or fraudulent challenges are being raised. Only in a non-optimistic case would there be gas-intensive interactive challenges using fraud proofs. However,  attributability in execution ensures that a malicious party will be penalized enough to cover up the gas costs incurred in the challenges. The motivation behind using ORUs for the BIT execution layer stems from the simplicity of the design, generalizability across many DApps without caring for their intricacies and low gas costs in optimistic scenarios.
+
+ 
+
+However, ORUs suffer from capital inefficiency due to the long challenge window. We are big believers in zkSync and other zero-knowledge based rollups (zkRUs) to solve this issue.  With the maturity of zero-knowledge protocols towards generalized circuits and increasing numbers of contracts running on the execution layer, the BIT execution layer can gradually migrate to zkRU with high amortization of proof verification cost per transaction and low latency for state updates. 
+
+
+## Our Approach
+
+In this section, we elaborate further on our proposed architecture of BIT execution layer + EigenDA. Our roadmap envisions ORU for the BIT execution layer as the first iteration.
+
+In order to be a sequencer for the BIT execution layer, the sequencer has to deposit collateral. 
+
+BIT Network users will send their transactions to BIT ORU sequencer. The sequencer will collate these transactions into batches and will execute the transactions in the batch to update the state of the BIT ORU. The sequencer will then process the batch, referred to as the datablob for our purposes, for storing in EigenDA. This entails encoding the datablob – one for BIT quorum and another for ETH quorum under the dual-quorum model. The parameters for encoding are obtained by querying the EigenLayr + EigenDA contracts on Ethereum.  Furthermore, the sequencer computes a commitment to the encoding for each quorum. The sequencer will publish the state root of the executed batch along with the associated commitment for both BIT and ETH quorum on Ethereum. This step is referred to “pre-commitment”.
+
+In the next step, the sequencer will disperse the encoded data chunks to their respective nodes in BIT and ETH quorum of EigenDA. The IP addresses required for dispersing the data chunks are obtained from EigenDA contracts, which any node registering to provide service in EigenDA has to make available.  Along with data chunks, the sequencer will also send a proof to each of the nodes of EigenDA that certifies the datablob was encoded correctly. On receiving their assigned encoded data chunks and proofs, each EigenDA node will first use the proofs to verify that the datablob was encoded properly for its quorum and then send back a signature to the sequencer that attests the node has agreed to store its respective data chunk and serve it on demand. The sequencer waits for receiving signatures from the majority of the stake in both BIT quorum and ETH quorum. When this is satisfied, the sequencer aggregates the signature for each of the quorum and publishes them into Ethereum. This is called the “Commitment step”.
+
+On posting the aggregate signatures in the commitment step, the challenge window for the BIT ORU is initiated. This step is called the “Challenge step”. Anyone wishing to check the state update done by the BIT ORU’s sequencer will have to first query EigenDA nodes for their respective encoded data chunks. If at least a certain fraction of nodes (decided by the encoding parameters) in either BIT quorum or ETH quorum respond back with their data chunks, then the original datablob can be reconstructed. Using this datablob, one can check the sequencer’s claim to state update. In the non-optimistic scenario where the sequencer did fraudulent execution, the challenger can raise a dispute by depositing collateral and initiating an interactive challenge in Ethereum as provisioned in the BIT ORU contracts. At the end of the interactive challenge, the sequencer will be proven to have done fraudulent execution and its collateral would be slashed. On the other hand, if the sequencer had done legitimate execution, the challenger would be proven to have raised a wrong dispute at the end of the interactive challenge and its collateral would be slashed.
+
+Aside from ensuring the correct state update is being done by the sequencer of BIT ORU, it is also necessary to make certain that the sequencer is not engaging in censorship. Using Ethereum for settlement leverages Ethereum’s massive trust network to combat censorship.
+
+The mechanism is as follows: any user being censored by the sequencer can send their transaction into a special queue maintained by the BIT ORU contracts in Ethereum. If the sequencer doesn’t include that transaction into one of its batches within a stipulated time and execute upon it, the sequencer’s collateral deposited in Ethereum would be slashed. This process is called “Forced inclusion”. 
+
+![diagram](https://i.postimg.cc/9fkWGF66/image1.png)
+
+## Conclusion / Proposed Timeline
+
+We have carefully considered all possible solutions and scenarios for building a BIT network and are confident that this tech stack is the best fit for the deployment of the BIT network. With both a native BIT execution layer and security derived from the Ethereum network, there are no compromises being made to ensure optimal speed, security and decentralization of the BIT network. The deployment represents the true power of BitDAO and will stand as a beacon/invitation for builders. 
+
+We propose to launch our approach in three phrases.
+
+
+
+1. Launch BIT network testnet powered by EigenLayer+Optimism (~2-3 months)
+2. Launch BIT network mainnet powered by EigenLayer+Optimism (~3 months from testnet, assuming ETH2 launches in September)
+3. Migration of BIT network to EigenLayer+zkSync (~6-12 months from BIT Mainnet)
