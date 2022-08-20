@@ -19,3 +19,4 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 ## Research
 
 [R001: DAO Legal Structuring](/research/R001.md)
+R002: Modular-bit-network-proposal
