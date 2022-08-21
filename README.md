@@ -1,14 +1,8 @@
-# Introduction
-
-## Windranger Labs
-
-### About
+## About
 
 We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO](https://zkdao.io/), [EduDAO](https://edudao.io/), and several more BitDAO affiliated projects.
 
-## Open prompts
-
-### Prompts for DAO Tools
+## Prompts
 
 [P001: Improving DAO Ideation and Governance](/prompts/P001.md)
 
