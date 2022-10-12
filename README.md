@@ -18,4 +18,4 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 
 [R002: Modular BitNetwork Proposal](/research/R002.md)
 
-[R003: Token design](research/R003.md)
+[R003: Token Design](research/R003.md)
