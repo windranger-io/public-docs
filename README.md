@@ -21,3 +21,5 @@ We support [BitDAO](https://www.bitdao.io/), [Game7](https://game7.io/), [zkDAO]
 [R003: Token Design](research/R003.md)
 
 [R004: Events Tech Stack](research/R004.md)
+
+[R005: BitDAO Dune Analytics Dashboard by @fateno123](https://dune.com/fateno123/bitdao-summary)
